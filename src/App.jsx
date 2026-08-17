@@ -405,9 +405,9 @@ function App() {
                     </div>
 
                     <span className="text-sm text-slate-500">
-                       Summer 2026 · Nantwich, UK
+                      Summer 2026 · Nantwich, UK
                       <br />
-                     Summer 2025 · Manchester, UK
+                      Summer 2025 · Manchester, UK
                     </span>
                   </div>
 
@@ -520,7 +520,7 @@ function App() {
 
           <div className="flex flex-col justify-center gap-4 sm:flex-row">
             <a
-              href="mailto:menna_mostafa.khedr@yahoo.com"
+              href="mailto:mennatalla.mostafa.khedr@gmail.com"
               className="rounded-lg bg-gradient-to-r from-blue-500 to-purple-500 px-7 py-3 font-semibold shadow-lg shadow-purple-500/10 transition hover:-translate-y-1 hover:shadow-purple-500/30"
             >
               Email Me

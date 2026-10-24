@@ -1,33 +1,39 @@
 import { useState } from "react";
 
 const projects = [
+
+{
+  name: "Fashion Retail Inventory Management System",
+  type: "Full-Stack Web Application",
+  img: "/1.jpg",
+  desc: "Inventory management system for product catalogs, stock tracking, inventory movements, and role-based access control, with Supabase authentication and database integration.",
+  demo: "https://mk-inventory-hub.vercel.app/",
+  github: "https://github.com/menna-17/inventory",
+  tech: ["React.js", "TypeScript", "Supabase"],
+},
+
   {
     name: "Craftora",
     type: "Full-Stack E-Commerce",
-    img: "/1.png",
+    img: "/2.png",
     desc: "Full-stack e-commerce platform with role-based access, Stripe payments, RESTful APIs, and product management for 100+ products.",
     demo: "https://craftoracrafts.vercel.app/",
     github: "https://github.com/menna-17/e-commerce.git",
     tech: ["React", "Node.js", "MongoDB", "Stripe"],
   },
+
   {
     name: "Hasmin",
     type: "Frontend Web Application",
-    img: "/2.png",
+    img: "/3.png",
     desc: "Responsive bakery website built with reusable React components and a mobile-first design using Tailwind CSS.",
     demo: "https://hassmen-project.vercel.app/",
     github: "https://github.com/menna-17/hassmen-project.git",
     tech: ["React", "Tailwind CSS"],
   },
-  {
-    name: "Flyee",
-    type: "Frontend Web Application",
-    img: "/3.png",
-    desc: "Flight booking application featuring real-time search, interactive seat selection, and simulated user authentication.",
-    demo: "https://flyee-fullstack-z7qg.vercel.app/",
-    github: null,
-    tech: ["React", "Tailwind CSS"],
-  },
+
+
+
 ];
 
 const skills = [
